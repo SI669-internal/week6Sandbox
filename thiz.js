@@ -1,16 +1,16 @@
 
-class Person {
+// class Person {
 
-    constructor(nm) {
-        this.name = nm;
-    }
+//     constructor(nm) {
+//         this.name = nm;
+//     }
 
-    greet() {
-        //console.log("Hi, I'm " + this.name + "!");
-        console.log("In greet(), this is ", this);
-    }
+//     greet() {
+//         //console.log("Hi, I'm " + this.name + "!");
+//         console.log("In greet(), this is ", this);
+//     }
 
-}
+// }
 
 // let joe = new Person("Joe");
 // joe.greet();

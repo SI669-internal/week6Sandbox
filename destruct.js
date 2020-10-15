@@ -6,7 +6,13 @@ let obj = {
 
 console.log("obj.prop1:", obj.prop1);
 let { prop1, prop2 } = obj;
+
+obj.prop1 = "new value";
+prop1 = "Anothew new value";
+
 console.log("prop1:" , prop1);
+console.log("obj.prop1:" , obj.prop1);
+
 console.log("prop2:" , prop2);
 
 function proper({prop1}) {
