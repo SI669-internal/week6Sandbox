@@ -1,21 +1,16 @@
 
-// class Person {
+class Person {
 
-//     constructor(nm) {
-//         this.name = nm;
-//     }
+    constructor(nm) {
+        this.name = nm;
+    }
 
-//     greet() {
-//         //console.log("Hi, I'm " + this.name + "!");
-//         console.log("In greet(), this is ", this);
-//     }
+    greet() {
+        console.log("Hi, I'm " + this.name + "!");
+        console.log("In greet(), this is ", this);
+    }
 
-// }
-
-// let joe = new Person("Joe");
-// joe.greet();
-
-// setTimeout(joe.greet, 500);
+}
 
 class Person2 {
 
@@ -25,12 +20,15 @@ class Person2 {
 
     greet = () => {
         console.log("Hi, I'm " + this.name + "!");
-        //console.log("In greet(), this is ", this);
+        console.log("In greet(), this is ", this);
     }
 
 }
 
+let joe = new Person("Joe");
+joe.greet();
+setTimeout(joe.greet, 400);
+
 let jen = new Person2("Jen");
 jen.greet();
-
 setTimeout(jen.greet, 500);
